@@ -38,7 +38,7 @@ if(x==1){
     printf("media = %.2lf\n",sum/2.0);
     printf("novo calculo (1-sim 2-nao)\n");
 }
-else if(x==2){
+if(x==2){
     break;
 }
 else{
