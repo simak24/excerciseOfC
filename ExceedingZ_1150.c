@@ -2,10 +2,13 @@
 int main(){
 int x,z,sum=0,count=0;
 scanf("%d",&x);
-while(z<x){
-    scanf("%d",&z);
+while(1){
+        scanf("%d",&z);
+    if(z>x){
+   break;
 }
-            for(int i=x;i<z;i++){
+}
+            for(int i=x;;i++){
                     sum+=i;
             count++;
             if(sum>z){
